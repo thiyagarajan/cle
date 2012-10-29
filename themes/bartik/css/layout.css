@@ -1,0 +1,153 @@
+
+/* ---------- Basic Layout Styles ----------- */
+
+html,
+body,
+#page  {
+  height: 100%;
+}
+
+body {
+    background-color: #97999B;
+    background-image: url("../images/bg.png");
+    background-position: 100% center;
+    background-repeat: repeat-y;
+}
+
+#page-wrapper {
+    background-image: url("../images/wave.png") !important;
+    background-position: center 165px !important;
+    background-repeat: no-repeat !important;
+    min-height: 100%;
+    min-width: 900px;
+}
+#header div.section,
+#featured div.section,
+#messages div.section,
+#main,
+#triptych,
+#footer-columns,
+#footer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header div.section {
+  position: relative;
+}
+.region-header {
+  float: right; /* LTR */
+  margin: 0 5px 10px;
+}
+.with-secondary-menu .region-header {
+  margin-top: 3em;
+}
+.without-secondary-menu .region-header {
+  margin-top: 15px;
+}
+#secondary-menu {
+  position: absolute;
+  right: 0; /* LTR */
+  top: 0;
+  width: 480px;
+}
+#content,
+#sidebar-first,
+#sidebar-second,
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last,
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
+}
+.one-sidebar #content {
+  width: 720px;
+}
+.two-sidebars #content {
+  width: 480px;
+}
+.no-sidebars #content {
+  width: 900px;
+  float: none;
+}
+#sidebar-first,
+#sidebar-second {
+  width: 240px;
+}
+#main-wrapper {
+  min-height: 300px;
+}
+#content .section,
+.sidebar .section {
+}
+#breadcrumb {
+  margin: 0 15px;
+}
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+  margin: 20px 20px 30px;
+  width: 280px;
+}
+#footer-wrapper {
+
+}
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  padding: 0 10px;
+  width: 220px;
+}
+#footer {
+  width: 900px;
+  height: 46px;
+  background-image: url('../images/footer_bg.png');
+}
+
+#header_bottom
+{
+  background-image:url(../images/header_bottom.png);
+  float:left;
+  height:89px;
+  margin-top:-15px;
+  width:900px;
+}
+
+#header_bottom .left
+{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 25px;
+    margin-top: 47px;
+}
+
+#header_bottom .right
+{
+    color: #FFFFFF;
+    float: right;
+    margin-right: 35px;
+    margin-top: 32px;
+}
+
+#header_bottom .right #unimac, #header_bottom .right #articlean
+{
+	margin-right: 35px;
+}
+
+#main-wrapper .homepage
+{
+    background-color: transparent !important;
+    padding: 0 !important;
+    width: 900px;
+}
+
+#home
+{
+
+}
